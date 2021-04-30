@@ -1,1 +1,2 @@
 C:\workspace\IntrotoProgramming\AdvancedLanguage\x64\Debug\AdvancedLanguage.exe
+C:\workspace\git_project\AdvancedLanguage\x64\Debug\AdvancedLanguage.exe
