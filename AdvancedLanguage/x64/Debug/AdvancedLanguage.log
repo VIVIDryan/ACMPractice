@@ -1,3 +1,3 @@
-﻿  mainTest.cpp
-C:\workspace\git_project\AdvancedLanguage\mainTest.cpp(11,9): warning C4101: “t”: 未引用的局部变量
+﻿  AL1031Buf.cpp
+C:\workspace\git_project\AdvancedLanguage\AL1031Buf.cpp(17,34): warning C4244: “参数”: 从“double”转换到“size_t”，可能丢失数据
   AdvancedLanguage.vcxproj -> C:\workspace\git_project\AdvancedLanguage\x64\Debug\AdvancedLanguage.exe

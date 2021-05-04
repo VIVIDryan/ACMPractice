@@ -1,0 +1,1462 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "使用未初始化的内存“temp[BYTE:0]”。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                },
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 12,
+                  "endLine": 41,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?AL1020@@YAHXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 10,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 11,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 12,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 13,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 15,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 18,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 19,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 18,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 19,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 23,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 23,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 28,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 28,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 32,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 28,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 28,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 32,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "“temp[BYTE:0]”可能为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "声明"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "已使用“temp[BYTE:0]”，但可能尚未将其初始化"
+                        }
+                      },
+                      "kinds": [
+                        "使用情况"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "使用未初始化的内存“temp”。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                },
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 12,
+                  "endLine": 41,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?AL1020@@YAHXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 10,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 11,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 12,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 13,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 15,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 18,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 19,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 18,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 19,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 23,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 23,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 28,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 28,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 32,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 28,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 28,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "未初始化“temp”"
+                        }
+                      },
+                      "kinds": [
+                        "声明"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 32,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此循环(假定“i<digit[j]”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "分支"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 28
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此循环(假定“o>1”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "分支"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "进入此循环(假定“i<digit[j]”)"
+                        }
+                      },
+                      "kinds": [
+                        "分支"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "“temp”是“std::basic_ostream<char,std::char_traits<char> >::<<”的输入/输出参数(在 d:\\program files\\microsoft visual studio\\vc\\tools\\msvc\\14.28.29910\\include\\ostream:269 处声明)"
+                        }
+                      },
+                      "kinds": [
+                        "声明"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "已使用“temp”，但可能尚未将其初始化"
+                        }
+                      },
+                      "kinds": [
+                        "使用情况"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+                },
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 19,
+                  "endLine": 37,
+                  "endColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?AL1020@@YAHXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.28.29914.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"D:\\Program Files\\Microsoft visual studio\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x0075B1C0 -il C:\\Users\\Travis\\AppData\\Local\\Temp\\_CL_cae0d150ast -typedil -f AL1020.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1928 -D_MSC_FULL_VER=192829914 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -Fox64\\Debug\\AL1020.obj -Fdx64\\Debug\\vc142.pdb -Gd -analyze:projectdirectory C:\\workspace\\git_project\\AdvancedLanguage -analyze:rulesetdirectory ;D:\\Program Files\\Microsoft visual studio\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset D:\\Program Files\\Microsoft visual studio\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin D:\\Program Files\\Microsoft visual studio\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I D:\\Program Files\\Microsoft visual studio\\VC\\Tools\\MSVC\\14.28.29910\\include -I D:\\Program Files\\Microsoft visual studio\\VC\\Tools\\MSVC\\14.28.29910\\atlmfc\\include -I D:\\Program Files\\Microsoft visual studio\\VC\\Auxiliary\\VS\\include -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\workspace\\git_project\\AdvancedLanguage\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/workspace/git_project/advancedlanguage/maintest.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "d774a06f1c9ae8a38efd70d97fa6fb2a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/workspace/git_project/advancedlanguage/base.h"
+          },
+          "hashes": {
+            "md5": "183ecd3c062173c04c413b588d2adb79"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/workspace/git_project/advancedlanguage/al1027.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "b6789166bb22d7857c9c9c2c242ac6e0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/workspace/git_project/advancedlanguage/al1026.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "cdea5bdd63bc2af5e5403fc4a871f1c8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/workspace/git_project/advancedlanguage/al1025.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "0654cc388abb7b9d06bfdf9cded08483"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/workspace/git_project/advancedlanguage/al1024.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "08c281f1dc8fc515a0f63b6e6900c2ed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/workspace/git_project/advancedlanguage/al1023.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "587b312a203626e532598374cae18466"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/workspace/git_project/advancedlanguage/al1022.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "1e988b1e025a5f29a658d45468bab885"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/workspace/git_project/advancedlanguage/al1021.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "36708a7eb344a3b8ffe1569e9b67ae57"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/workspace/git_project/AdvancedLanguage/AL1020.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "fd9358a6aed70b210da34125a751f00a"
+          }
+        }
+      ]
+    }
+  ]
+}

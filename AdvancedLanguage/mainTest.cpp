@@ -1,21 +1,15 @@
 #include <iostream>
 #include <cmath>
-#include <iomanip>
 #include "base.h"
+
 using namespace std;
 
-extern int AL1019(int m);
+
+extern int AL1031Buf(void);
 
 int main()
 {
-	double t;
-	int i;
-	while (true) {
-		cin >> i;
-		AL1019(i);
-	}
-	
-	
+	AL1031Buf();
 
 	return 0;
 }

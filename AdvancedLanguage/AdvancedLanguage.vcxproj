@@ -146,6 +146,19 @@
     <ClCompile Include="AL1017.cpp" />
     <ClCompile Include="AL1018.cpp" />
     <ClCompile Include="AL1019.cpp" />
+    <ClCompile Include="AL1020.cpp" />
+    <ClCompile Include="AL1021.cpp" />
+    <ClCompile Include="AL1022.cpp" />
+    <ClCompile Include="AL1023.cpp" />
+    <ClCompile Include="AL1024.cpp" />
+    <ClCompile Include="AL1025.cpp" />
+    <ClCompile Include="AL1026.cpp" />
+    <ClCompile Include="AL1027.cpp" />
+    <ClCompile Include="AL1028.cpp" />
+    <ClCompile Include="AL1029.cpp" />
+    <ClCompile Include="AL1030.cpp" />
+    <ClCompile Include="AL1031.cpp" />
+    <ClCompile Include="AL1031Buf.cpp" />
     <ClCompile Include="mainTest.cpp" />
   </ItemGroup>
   <ItemGroup>

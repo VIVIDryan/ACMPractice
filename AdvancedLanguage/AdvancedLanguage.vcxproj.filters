@@ -39,6 +39,45 @@
     <ClCompile Include="AL1019.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="AL1020.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AL1021.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AL1022.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AL1023.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AL1024.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AL1025.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AL1026.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AL1027.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AL1028.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AL1029.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AL1030.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AL1031.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AL1031Buf.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="base.h">
