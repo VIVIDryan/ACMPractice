@@ -139,6 +139,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="2019P1.cpp" />
+    <ClCompile Include="2019P2.cpp" />
+    <ClCompile Include="2019P3.cpp" />
+    <ClCompile Include="2019p5.cpp" />
     <ClCompile Include="AL1013.cpp" />
     <ClCompile Include="AL1014.cpp" />
     <ClCompile Include="AL1015.cpp" />
@@ -159,10 +163,13 @@
     <ClCompile Include="AL1030.cpp" />
     <ClCompile Include="AL1031.cpp" />
     <ClCompile Include="AL1031Buf.cpp" />
+    <ClCompile Include="Homework1.cpp" />
     <ClCompile Include="mainTest.cpp" />
+    <ClCompile Include="P1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="base.h" />
+    <ClInclude Include="bjutCup.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -20,4 +20,8 @@ int AL1027(int);
 int AL1030(void);
 int AL1031(void);
 int AL1031Buf(void);
+
+
+
+bool compare(void);
 #endif /* basc_h */#pragma once

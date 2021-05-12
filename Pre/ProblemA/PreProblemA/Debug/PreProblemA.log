@@ -1,0 +1,3 @@
+﻿  PreProblemA.cpp
+C:\workspace\git_project\Pre\ProblemA\PreProblemA\PreProblemA.cpp(21,19): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  PreProblemA.vcxproj -> C:\workspace\git_project\Pre\ProblemA\PreProblemA\Debug\PreProblemA.exe

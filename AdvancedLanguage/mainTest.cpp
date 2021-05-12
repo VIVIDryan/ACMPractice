@@ -1,15 +1,19 @@
 #include <iostream>
 #include <cmath>
-#include "base.h"
+#include "bjutCup.h"
 
 using namespace std;
 
 
-extern int AL1031Buf(void);
+
 
 int main()
 {
-	AL1031Buf();
+	
+	
+	bjutCup19P5();
+
+		
 
 	return 0;
 }

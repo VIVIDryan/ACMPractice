@@ -13,6 +13,15 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="课程">
+      <UniqueIdentifier>{64d6cbc1-bace-4ccf-b52e-2a096ed9ad6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BJUTCUP">
+      <UniqueIdentifier>{7db851e8-1b8d-4e64-ba9e-739c46f80f2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Luobu">
+      <UniqueIdentifier>{7c1f8982-ec4e-4b55-905c-07c353cf7979}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AL1013.cpp">
@@ -75,12 +84,33 @@
     <ClCompile Include="AL1031.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Homework1.cpp">
+      <Filter>课程</Filter>
+    </ClCompile>
+    <ClCompile Include="2019P1.cpp">
+      <Filter>BJUTCUP</Filter>
+    </ClCompile>
+    <ClCompile Include="2019P2.cpp">
+      <Filter>BJUTCUP</Filter>
+    </ClCompile>
+    <ClCompile Include="2019P3.cpp">
+      <Filter>BJUTCUP</Filter>
+    </ClCompile>
+    <ClCompile Include="2019p5.cpp">
+      <Filter>BJUTCUP</Filter>
+    </ClCompile>
     <ClCompile Include="AL1031Buf.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="P1.cpp">
+      <Filter>Luobu</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="base.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bjutCup.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
