@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1621045068 source:c:\workspace\git_project\acmbjut2021\luogu\algorithm1-1\main.cpp
+	<iostream>
+
+1620908599 source:c:\workspace\git_project\acmbjut2021\luogu\algorithm1-1\p1.cpp
+	<iostream>
+	<vector>
+	<cstdio>
+	<cmath>
+
+1620909785 source:c:\workspace\git_project\acmbjut2021\luogu\algorithm1-1\p1042.cpp
+	<iostream>
+	<vector>
+	<cstdio>
+	<cmath>
+
+1620913644 source:c:\workspace\git_project\acmbjut2021\luogu\algorithm1-1\p2670.cpp
+	<iostream>
+	<cmath>
+	<string.h>
+
+1621008298 source:c:\workspace\git_project\acmbjut2021\luogu\algorithm1-1\p1563.cpp
+	<iostream>
+	<cmath>
+	<string>
+
+1621045486 source:c:\workspace\git_project\acmbjut2021\luogu\algorithm1-1\p1601.cpp
+	<iostream>
+	<cmath>
+	<string>
+	<stack>
+

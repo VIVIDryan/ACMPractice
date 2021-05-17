@@ -1,0 +1,34 @@
+#include <iostream>
+#include <cmath>
+#include <string>
+#include <stack>
+using namespace std;
+
+
+int P1601(){
+    stack<int> a;
+    stack<int> b;
+    stack<int> re;
+    int an =0;
+    int bn= 0;
+    char ch;
+    
+    while((ch=getchar()) != '\n'){
+        a.push(ch-30);   
+        an += 1;
+    }
+    i =500;
+    while ((ch=getchar()) != '\n'){
+        b.push(ch-30);   
+        bn += 1;
+    }
+    int temp;
+    while (!a.empty() || !b.empty()){
+        temp = (a.empty()?0:a.top() )+(b.empty()?0:b.top());
+        if(temp>9){
+            temp = temp
+        }
+        
+    }
+    
+}

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1620881621 source:c:\workspace\git_project\acmbjut2021\acmbjut2021\problemc.cpp
+
+1620886789 source:c:\workspace\git_project\acmbjut2021\acmbjut2021\problema.cpp
+	<iostream>
+	<cmath>
+
