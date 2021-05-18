@@ -166,6 +166,7 @@
     <ClCompile Include="Homework1.cpp" />
     <ClCompile Include="mainTest.cpp" />
     <ClCompile Include="P1.cpp" />
+    <ClCompile Include="P1605.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="base.h" />

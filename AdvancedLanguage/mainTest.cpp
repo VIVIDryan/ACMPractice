@@ -2,6 +2,7 @@
 #include <cmath>
 #include "bjutCup.h"
 
+extern int P1601(void);
 using namespace std;
 
 
@@ -11,7 +12,7 @@ int main()
 {
 	
 	
-	bjutCup19P5();
+	P1601();
 
 		
 

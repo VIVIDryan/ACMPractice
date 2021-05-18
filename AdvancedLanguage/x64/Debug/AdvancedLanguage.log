@@ -1,2 +1,5 @@
-﻿  2019p5.cpp
+﻿  P1605.cpp
+C:\workspace\git_project\AdvancedLanguage\P1605.cpp(56,22): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\workspace\git_project\AdvancedLanguage\P1605.cpp(57,22): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\workspace\git_project\AdvancedLanguage\P1605.cpp(90,24): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
   AdvancedLanguage.vcxproj -> C:\workspace\git_project\AdvancedLanguage\x64\Debug\AdvancedLanguage.exe

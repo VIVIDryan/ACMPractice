@@ -1,0 +1,20 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+extern int P1601(void);
+extern string anmulb1(string a, string b);
+
+int main()
+{
+
+   
+    re = anmulb1(a,b);
+
+    cout << re;
+
+
+
+    return 0;
+
+}

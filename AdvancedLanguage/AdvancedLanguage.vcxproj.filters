@@ -105,6 +105,9 @@
     <ClCompile Include="P1.cpp">
       <Filter>Luobu</Filter>
     </ClCompile>
+    <ClCompile Include="P1605.cpp">
+      <Filter>Luobu</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="base.h">
