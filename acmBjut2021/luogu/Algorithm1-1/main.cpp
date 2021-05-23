@@ -2,13 +2,14 @@
 #include <string>
 
 using namespace std;
-extern int P1303(void);
+extern int P1067(void);
 
 
 int main()
 {
 
-  P1303();
+ P1067();
+
 
     return 0;
 

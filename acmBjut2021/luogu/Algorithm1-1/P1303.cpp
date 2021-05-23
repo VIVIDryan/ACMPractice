@@ -1,8 +1,6 @@
 #include <iostream>
 #include <cmath>
 #include <string>
-#include <stack>
-#include <algorithm>
 #include <vector>
 using namespace std;
 string anmulb1(string a, string b);

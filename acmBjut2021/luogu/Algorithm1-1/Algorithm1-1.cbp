@@ -33,7 +33,11 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="P1042.cpp" />
+		<Unit filename="P1067.cpp" />
+		<Unit filename="P1098.cpp" />
 		<Unit filename="P1303.cpp" />
+		<Unit filename="P1328.cpp" />
+		<Unit filename="P1518.cpp" />
 		<Unit filename="P1563.cpp" />
 		<Unit filename="P1601.cpp" />
 		<Unit filename="P1998.cpp" />
